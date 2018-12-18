@@ -51,7 +51,7 @@ import QItemTile from 'quasar-framework/src/components/list/QItemTile'
 import QIcon from 'quasar-framework/src/components/icon/QIcon'
 import SideBar from './partials/SideBar'
 import { createNamespacedHelpers } from 'vuex'
-import bch from 'bitcoincashjs'
+import bch from 'bitcore-lib-cash'
 const { mapActions } = createNamespacedHelpers('accountModule')
 export default {
   data () {

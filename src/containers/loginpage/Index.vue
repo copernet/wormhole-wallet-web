@@ -31,7 +31,7 @@
 import QLayout from 'quasar-framework/src/components/layout/QLayout'
 import popup from '../../../src/util/notify'
 import request from '../../util/request'
-import bch from 'bitcoincashjs'
+import bch from 'bitcore-lib-cash'
 import { mapState, mapActions, mapMutations } from 'vuex'
 import { Promise } from 'bluebird'
 let { warning, ok } = popup

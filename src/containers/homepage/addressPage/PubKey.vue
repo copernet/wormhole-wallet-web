@@ -11,7 +11,7 @@
 </template>
 <script>
 import { createNamespacedHelpers } from 'vuex'
-import bch from 'bitcoincashjs'
+import bch from 'bitcore-lib-cash'
 const { mapState } = createNamespacedHelpers('accountModule')
 export default {
   data () {

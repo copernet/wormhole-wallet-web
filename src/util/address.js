@@ -2,7 +2,7 @@
  * util for address
  */
 import bitcoin from 'bitcore-lib'
-import bch from 'bitcoincashjs'
+import bch from 'bitcore-lib-cash'
 export default{
   validateAddress (address) {
     return bitcoin.Address.isValid(address)

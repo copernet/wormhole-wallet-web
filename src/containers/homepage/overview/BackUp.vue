@@ -19,7 +19,7 @@
 import { createNamespacedHelpers } from 'vuex'
 import popup from '../../../../src/util/notify'
 import cryptoUtil from '../../../../src/util/cryptoUtil'
-import bch from 'bitcoincashjs'
+import bch from 'bitcore-lib-cash'
 import { saveAs } from 'file-saver/FileSaver'
 import { QSpinnerFacebook } from 'quasar'
 const loadingOptions = { spinner: QSpinnerFacebook, spinnerColor: 'light-blue' }
