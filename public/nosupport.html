@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <title>Wormhole Wallet</title>
+    <style>
+      html,body{
+        font-family: sans-serif;
+        width: 100%;
+        height: 100%;
+        padding: 0 0;
+        margin: 0 0;
+      }
+      .no-support-container{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+      }
+      .no-support-container .header-container{
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 80px;
+        width: 100%;
+        background-image: linear-gradient(to bottom, #1a2a5f, #162146);
+        display: flex;
+        align-items: center;
+      }
+      .no-support-container .wormhole-logo{
+        width: 276px;
+        margin-left: 50px;
+      }
+      .no-support-container .content-container{
+        position: relative;
+        margin-top: 80px;
+        flex: 1;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+      }
+      .no-support-container .content-container div{
+        display: flex;
+        justify-content: center;
+      }
+      .no-support-container .artwork{
+        display: inline-block;
+        width: 230px;
+        height: 270px;
+        margin-top: 80px;
+      }
+      .no-support-container .artwork-desc{
+        font-size: 26px;
+        font-weight: 500;
+        color: #0a1f44;
+        margin-top: 60px;
+      }
+      @media (max-width: 376px) {
+        .no-support-container .artwork{
+          display: inline-block;
+          width: 180px;
+          height: 211px;
+          margin-top: 70px;
+        }
+        .no-support-container .artwork-desc{
+          font-size: 15px;
+        }
+      }
+    </style>
+  </head>
+  <body class='no-support-container'>
+    <noscript>
+      <strong>We're sorry but webwallet doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
+    </noscript>
+    <div class='header-container'>
+      <img src="img/logo_top.png" alt="wormhole logo" class='wormhole-logo'>
+    </div>
+    <div class='content-container'>
+      <div>
+          <img src="img/artwork@3x.jpg" alt="artwork" class='artwork'>
+      </div>
+      <div class='artwork-desc'>抱歉…您所在的区域暂时不能提供服务 :(</div>
+    </div>
+  </body>
+</html>
