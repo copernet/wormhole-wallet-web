@@ -52,7 +52,7 @@ import commonUtil from '../../../src/util/common'
 import popup from '../../../src/util/notify'
 import { mapState, mapActions } from 'vuex'
 import request from '../../../src/util/request'
-import bch from 'bitcoincashjs'
+import bch from 'bitcore-lib-cash'
 let { warning, ok } = popup
 
 export default {

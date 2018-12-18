@@ -2,7 +2,7 @@ import { Big } from 'big.js'
 import request from './request'
 import popup from './notify'
 import commonUtil from './common'
-const bch = require('bitcoincashjs')
+const bch = require('bitcore-lib-cash')
 // const SATOSHI_UNIT = new Big(100000000)
 
 // create bch transaction

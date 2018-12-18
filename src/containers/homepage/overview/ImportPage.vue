@@ -13,7 +13,7 @@
 </template>
 <script>
 import popup from '../../../../src/util/notify'
-import bch from 'bitcoincashjs'
+import bch from 'bitcore-lib-cash'
 import { Promise } from 'bluebird'
 import { QSpinnerFacebook } from 'quasar'
 import { mapState, mapActions } from 'vuex'
