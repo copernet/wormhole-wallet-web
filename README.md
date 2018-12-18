@@ -25,6 +25,7 @@ This is the repository for [Wormhole Web Wallet](https://wallet.wormhole.cash).
 - [ ] [Vue-i18n](https://github.com/kazupon/vue-i18n)
 
 #### Linting
+
 We follow the rules outlined by the [Javascript Standard Style](https://standardjs.com/rules.html) as well as a few Vue specific rules.
 
 Code linting is handled by [ESLint](https://eslint.org/). The following commands are available:
